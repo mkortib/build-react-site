@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#stripe functions
+.functions
+functions
+
 # Runtime data
 pids
 *.pid
