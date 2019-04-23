@@ -1,0 +1,24 @@
+{
+	"cells": [
+		{
+			"title": "Character Animation",
+			"img": "../images/ae1.svg"
+		},
+		{
+			"title": "Title Animation",
+			"img": "../images/ae2.svg"
+		},
+		{
+			"title": "Space Intro",
+			"img": "../images/ae3.svg"
+		},
+		{
+			"title": "Creating Animations for Lottie",
+			"img": "../images/ae4.svg"
+		},
+		{
+			"title": "App Design Prototype",
+			"img": "../images/ae5.svg"
+		}
+	]
+}

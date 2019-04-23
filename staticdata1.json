@@ -1,0 +1,52 @@
+{
+	"cells": [
+		{
+			"title": "Intro to React",
+			"class": "react-itm1"
+		},
+		{
+			"title": "Basic Styling in CSS",
+			"class": "react-itm2"
+		},
+		{
+			"title": "Interactions and Animations",
+			"class": "react-itm3"
+		},
+		{
+			"title": "Adaptive Layout with CSS Grid",
+			"class": "react-itm4"
+		},
+		{
+			"title": "Components and Props",
+			"class": "react-itm5"
+		},
+		{
+			"title": "States and Events",
+			"class": "react-itm6"
+		},
+		{
+			"title": "Multiple Pages",
+			"class": "react-itm7"
+		},
+		{
+			"title": "JSON Static Data",
+			"class": "react-itm8"
+		},
+		{
+			"title": "Data with Contentful",
+			"class": "react-itm9"
+		},
+		{
+			"title": "Contact form and Posting Data",
+			"class": "react-itm10"
+		},
+		{
+			"title": "Payments and Stripe",
+			"class": "react-itm11"
+		},
+		{
+			"title": "Publish to Netlify",
+			"class": "react-itm12"
+		}
+	]
+}

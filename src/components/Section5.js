@@ -2,16 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import Wave from './Wave'
 
-export default function Section(props) {
+export default function Section5(props) {
 	return (
 		<SectionGroup image={props.image}>
 			<WaveTop>
 				<Wave />
 			</WaveTop>
-			<SectionLogo src={props.logo}/>
-			<SectionTitileGroup>
-				<SectionTitle>{props.title}</SectionTitle>
-				<SectionText>{props.text}</SectionText>
+			<SectionTitileGroup imgAr={props.imgARkit}>
+				<SectionImg src={props.imgIphone2} />
 			</SectionTitileGroup>
 			<WaveBottom>
 				<Wave />
@@ -19,6 +17,15 @@ export default function Section(props) {
 		</SectionGroup>
 	)
 }
+
+const SectionImg = styled.img`
+	max-width: 800px;
+	display: block;
+	height: auto;
+	margin: auto;
+	position: relative;
+	z-index: 4;
+`
 
 const WaveBottom = styled.div`
 	position: absolute;
@@ -32,8 +39,9 @@ const WaveTop = styled.div`
 	transform: rotate(180deg)
 `
 const SectionGroup = styled.div`
+	margin: 400px 0 200px;
 	background: url(${props => props.image});
-	height: 720px;
+	height: 585px;
 	background-size: cover;
 	display: grid;
 	grid-gap: 20px;
@@ -44,25 +52,23 @@ const SectionGroup = styled.div`
 	}
 `
 
-const SectionLogo = styled.img`
-	align-self: end;
-	width: 128px;
-	margin: 0px auto 30px;
-	animation: moveReactIcon 10s linear infinite;
-	position: relative;
-`
-
 const SectionTitileGroup = styled.div`
-	display: grid;
-	max-width: 800px;
-	grid-template-columns: 300px auto;
-	margin: 0 auto;
-	grid-column-gap: 50px;
-	grid-template-rows: auto 100%;
+	position: relative;
 
-	@media (max-width: 720px) {
-		grid-template-columns: 1fr;
+	&::after {
+		content: '';
+		width: 130px;
+		height: 130px;
+		background-image: url(${props => props.imgAr});
+		background-size: cover;
+		background-position: center;
+		position: absolute;
+		top: -200px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 5;
 	}
+
 `
 
 const SectionTitle = styled.h3`
