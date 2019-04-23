@@ -63,7 +63,7 @@ const Links = styled.div`
 		text-transform: uppercase;
 		color: #94A4BA;
 		font-weight: 600;
-		padding: 0 0 10px 0;
+		padding: 0 0 11px 0;
 	}
 `
 
